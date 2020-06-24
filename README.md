@@ -10,7 +10,7 @@ class MyCustomError extends Error {}
 
 // non async example
 tryCatch(
-    () => { throw MyCustomError; },
+    () => { throw new MyCustomError; },
     Catch(MyCustomError, e => { /* do something */ }),
     Catch(Error, e => { /* do something else */ }),
     Finally(() => { /* close db connection maybe? */ })
