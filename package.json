@@ -1,0 +1,18 @@
+{
+  "name": "try-catcher",
+  "version": "1.0.0",
+  "description": "Error specific functional try catcher",
+  "main": "dist/tryCatch.js",
+  "scripts": {
+    "test:js": "node ./node_modules/.bin/jest dist/tryCatch.spec.js",
+    "test:js:w": "node ./node_modules/.bin/jest --watch dist/tryCatch.spec.js"
+  },
+  "author": "Matt Meisberger",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
