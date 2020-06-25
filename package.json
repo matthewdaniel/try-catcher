@@ -1,8 +1,9 @@
 {
   "name": "try-catcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Error specific functional try catcher",
   "main": "dist/tryCatch.js",
+  "repository": "matthewdaniel/try-catcher",
   "scripts": {
     "test:js": "node ./node_modules/.bin/jest dist/tryCatch.spec.js",
     "test:js:w": "node ./node_modules/.bin/jest --watch dist/tryCatch.spec.js"
